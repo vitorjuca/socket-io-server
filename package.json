@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -21,5 +21,8 @@
     "url": "https://github.com/vitorjuca/socket-io-server/issues"
   },
   "homepage": "https://github.com/vitorjuca/socket-io-server#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
